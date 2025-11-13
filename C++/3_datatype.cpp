@@ -13,10 +13,9 @@ int main()
 
   // String
   string name = "Yash";
-  cout << "Ans : " << name << endl; // Yash
 
   string full_name;
-  getline(cin, full_name);
+  getline(cin, full_name); // this to print full line of string
   cout << "Ans : " << full_name << endl;
 
   // Char
