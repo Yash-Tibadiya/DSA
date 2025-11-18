@@ -1,3 +1,24 @@
 {
-  "C_Cpp.errorSquiggles": "disabled"
+  "editor.formatOnSave": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.formatting": "vcFormat",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeElse": false,
+  "C_Cpp.vcFormat.newLine.beforeCatch": false,
+  "C_Cpp.vcFormat.indent.caseLabels": true,
+  "C_Cpp.vcFormat.indent.caseBlocks": true,
+  "C_Cpp.vcFormat.indent.afterAccessSpecifiers": true,
+  "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": false,
+  "C_Cpp.vcFormat.space.afterKeywordsInControlFlowStatements": true,
+  "C_Cpp.vcFormat.space.withinControlStatementParens": false,
+  "C_Cpp.vcFormat.space.beforeLambdaOpenParenthesis": false,
+  "C_Cpp.vcFormat.wrap.preserveBlocks": "allOneLineScopes"
 }

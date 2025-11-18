@@ -1,19 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
   int a;
 
   cout << "Enter your age : ";
   cin >> a;
 
-  if (a >= 18)
-  {
+  if (a >= 18) {
     cout << "You are adult.";
-  }
-  else
-  {
+  } else {
     cout << "You are miner.";
   }
 

@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
   // int & long
   int x = 10;
   long y = 10101010;
