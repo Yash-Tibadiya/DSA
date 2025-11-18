@@ -1,12 +1,13 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
   int x;
   cin >> x;
   cout << "value of x: " << x << endl;
 
-  int a,b;
+  int a, b;
   cin >> a >> b;
   cout << "Value of a: " << a << " and b: " << b;
 
